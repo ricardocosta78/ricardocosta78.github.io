@@ -1056,6 +1056,9 @@ footer .assinatura .imagem {
     top: 2rem;
     right: 2rem;
   }
+  .logo img {
+    width: 90px;
+  }
   .landing-text h1 {
     font-size: 8rem;
     top: 40%;
@@ -1146,5 +1149,62 @@ footer .assinatura .imagem {
   }
   .up i {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .logo img {
+    width: 80px;
+  }
+  .landing-text h1 {
+    font-size: 6rem;
+  }
+  .landing-text h6 {
+    font-size: 2rem;
+  }
+  .landing-text a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .landing-text h1 {
+    font-size: 5rem;
+  }
+  .landing-text h6 {
+    font-size: 1.5rem;
+  }
+  .landing-text a {
+    font-size: 1.5rem;
+  }
+  .social-media-nav .social-list-contact i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  footer .assinatura .imagem {
+    width: 200px;
+  }
+  .up {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .up i {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .landing-text h1 {
+    font-size: 4rem;
+  }
+  .landing-text h6 {
+    font-size: 1.5rem;
+  }
+  .landing-text a {
+    font-size: 1.5rem;
+  }
+  .social-media-nav .social-list-contact i {
+    font-size: 1.1rem;
+    margin: 0 0.3rem;
   }
 }
